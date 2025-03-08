@@ -24,7 +24,7 @@
 
   --tittle-lg: 800 56px/120% var(--font-family-tittle);
   --tittle-md: 800 24px/120% var(--font-family-tittle);
-  --tittle-lg: 800 16px/120% var(--font-family-tittle);
+  --tittle-sm: 800 16px/120% var(--font-family-tittle);
  
   --text-sub-tt: 400 20px/120% var(--font-family-sub);
 
@@ -32,3 +32,12 @@
   --text-sm:400 14px/140% var(--font-family-text);
 
 }
+
+body {
+  background-image: url(/assets/image/Background_Intro.png);
+  display: grid;
+  min-width: 680px;
+  place-items: center;
+  padding: 2rem 1rem;;
+}
+
