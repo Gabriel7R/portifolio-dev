@@ -36,8 +36,7 @@
 body {
   background-image: url(/assets/image/Background_Intro.png);
   display: grid;
-  min-width: 680px;
-  place-items: center;
+  justify-content: center;
   padding: 2rem 1rem;;
 }
 

@@ -1,20 +1,49 @@
+header img{
+  border: 1px solid var(--red); 
+  border-radius: 100px;
+  width: 112px;
+  height: 112px;
+  margin: 100px auto 0px;
+  
+}
+
 #header-content{
   color: var(--gray-400);
   width: 680px;
+  height: 24px;
   text-align: center;
-  
+  display: grid;
+  gap: 8px;
 
- 
 }
 
 #header-content :nth-child(2){
   font: var(--text-sub-tt);
   color: var(--gray-500);
   margin: 56px 0px 8px;
- 
+
+  .destaque {
+    color: var(--red); /* Aqui você escolhe a cor que deseja */
+}
 }
 
 h1{
   font: var(--tittle-lg);
   color: var(--gray-600);
+  margin-bottom: 20px;
+}
+
+#all-social-links{ 
+  display: flex;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  gap: 16px;
+}
+
+#social-links{
+  border: 2px solid var(--gray-300);
+  border-radius: 999px;
+  font: var(--text-md);
+  color: var(--gray-500);
+
 }
