@@ -34,9 +34,7 @@
 }
 
 body {
-  background-image: url(/assets/image/Background_Intro.png);
-  display: grid;
-  justify-content: center;
-  padding: 2rem 1rem;;
-}
 
+  background-image: url(/assets/image/Background_Intro.png);
+
+}

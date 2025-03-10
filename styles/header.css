@@ -1,23 +1,38 @@
-header img{
+header {
+  display: flex;
+  justify-content: center;  /* Centraliza o conteúdo dentro do header */
+  align-items: center;      /* Alinha verticalmente no centro, se necessário */
+ 
+  flex-direction: column;   /* Organiza a imagem e o conteúdo do header em coluna */
+  span{
+    color: var(--red);
+  }
+}
+
+header img {
   border: 1px solid var(--red); 
   border-radius: 100px;
   width: 112px;
   height: 112px;
-  margin: 100px auto 0px;
-  
+  margin: 100px auto 0;  /* Centraliza horizontalmente */
 }
+
 
 #header-content{
   color: var(--gray-400);
+
   width: 680px;
   height: 24px;
+
   text-align: center;
-  display: grid;
-  gap: 8px;
+  
+  margin: 0px auto;
+  
+
 
 }
 
-#header-content :nth-child(2){
+#header-content :nth-child(1){
   font: var(--text-sub-tt);
   color: var(--gray-500);
   margin: 56px 0px 8px;
@@ -33,25 +48,36 @@ h1{
   margin-bottom: 20px;
 }
 
-#all-social-links{ 
-  display: flex;
-  grid-template-columns: repeat(5, auto);
-  justify-content: center;
-
+.text-h1{
+  font: var(--text-sm);
+  width: 100%;
+  display: block;
 }
 
-#social-links{
+#all-social-links {
+
+  display: flex;
+  justify-content: center;   /* Centraliza os links sociais */
+  gap: 16px;                 /* Espaçamento entre os links */
+  margin-top: 35vh;          /* Faz com que a seção de links vá para o final do header */
+  padding-bottom: 10px;
+}
+
+#social-links {
   border: 2px solid var(--gray-300);
   border-radius: 999px;
   background-color: var(--gray-300);
-
   font: var(--text-md);
   color: var(--gray-500);
-
   padding: 8px 16px;
-
   display: flex;
-  flex-direction: row;  /* Coloca a imagem ao lado do texto */
+  flex-direction: row;       /* Coloca a imagem ao lado do texto */
   align-items: center;
-  gap: 16px; 
+  gap: 16px;
+  
+}
+
+#seta{
+  display: flex;
+  margin: 100px auto;
 }
