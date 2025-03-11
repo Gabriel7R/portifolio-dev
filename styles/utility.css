@@ -7,11 +7,13 @@
 }
 
 .grid-flow-col-2{
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanhos iguais */
+  grid-gap: 24px;
 }
 
 
 .text-sm{
 font: var(--text-sm)
 }
+

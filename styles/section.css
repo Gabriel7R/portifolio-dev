@@ -1,0 +1,58 @@
+main{  
+display: flex;
+justify-content: center;  
+align-items: center;
+
+ p{
+  display: flex;
+  color: var(--red);
+  font: var(--text-sub-tt);
+  justify-content: center;  
+  align-items: center;
+  margin-top: 20px;
+}
+
+h1{
+  color: var(--gray-600);
+  font: var(--tittle-md);
+  margin-bottom: 56px;
+  display: block;
+}
+
+}
+
+nav{
+width: 1040px;
+display: grid; 
+grid-template-columns: repeat(3, 1fr); 
+justify-items: center; 
+align-items: center; 
+gap: 20px; 
+
+  figure span{
+    font: var(--tittle-sm);
+    color: var(--gray-600);
+
+  }
+
+  p{
+    font: var(--text-sm);
+    color: var(--gray-500);;
+  }
+
+  img{
+    width: 306px;
+    height: 156px;
+  }
+ figure{
+    border: 1px solid var(--gray-300);
+    border-radius: 12px;
+    padding: 12px;
+    background-color: var(--gray-300);
+    display: flex;
+    flex-direction: column; /* Alinha os elementos dentro do <figure> em coluna */
+    align-items: center;
+  }
+  
+}
+
