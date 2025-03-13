@@ -6,9 +6,17 @@
   grid-auto-flow: column;
 }
 
+.grid-flow-rows{
+  grid-template-rows: auto;
+}
+
 .grid-flow-col-2{
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanhos iguais */
+  grid-gap: 24px;
+}
+.grid-flow-col-1{
+  display: grid;
   grid-gap: 24px;
 }
 
@@ -17,20 +25,26 @@
 font: var(--text-sm)
 }
 
-.p_h1{
-   p{
+.p{
   display: flex;
-  color: var(--red);
-  font: var(--text-sub-tt);
+  color: var(--gray-500);
+  font: var(--text-md);
   justify-content: center;  
   align-items: center;
-  margin-block: 20px;
+  margin: 2px;
 }
 
-h1{
+.p_purple{
+  color: var(--purple);
+}
+
+.h3{
   color: var(--gray-600);
   font: var(--tittle-md);
-  margin-bottom: 56px;
-  display: block;
-}}
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+
 

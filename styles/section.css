@@ -70,6 +70,7 @@ margin: 0 auto 144px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  height: 330px;
   
   img{
     height: 30px;
@@ -89,7 +90,41 @@ margin: 0 auto 144px;
     font: var(--text-sm);
     color: var(--gray-500);
     padding-right: 20px;
+   
   }
 
 }
+
+
+#contacts{
+
+  display: flex;
+  justify-content: center;   
+  margin: 50px;                       
+  padding-bottom: 10px;
+
+  #social-link {
+    width: 400px;
+    border: 2px solid var(--gray-300);
+    border-radius: 8px;
+    background-color: var(--gray-300);
+    font: var(--text-md);
+    color: var(--gray-500);
+    padding: 20px 20px;
+    gap: 5px;
+    display: flex;              /* Usa Flexbox para alinhar os itens */
+    align-items: center;        /* Alinha verticalmente no centro */
+    justify-content: center; /* Espaça os itens (ícone + texto + seta) */
+  }
+
+
+.arrow-icon {
+    margin-left: auto;  /* Empurra a seta para o canto direito */
+  }
+
+ 
+}
+
+
+
 
