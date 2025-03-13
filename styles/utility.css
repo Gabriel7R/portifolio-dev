@@ -17,3 +17,20 @@
 font: var(--text-sm)
 }
 
+.p_h1{
+   p{
+  display: flex;
+  color: var(--red);
+  font: var(--text-sub-tt);
+  justify-content: center;  
+  align-items: center;
+  margin-block: 20px;
+}
+
+h1{
+  color: var(--gray-600);
+  font: var(--tittle-md);
+  margin-bottom: 56px;
+  display: block;
+}}
+

@@ -3,13 +3,13 @@ display: flex;
 justify-content: center;  
 align-items: center;
 
- p{
+/*p{
   display: flex;
   color: var(--red);
   font: var(--text-sub-tt);
   justify-content: center;  
   align-items: center;
-  margin-top: 20px;
+  margin-block: 20px;
 }
 
 h1{
@@ -17,17 +17,18 @@ h1{
   font: var(--tittle-md);
   margin-bottom: 56px;
   display: block;
-}
+}  */
 
 }
 
 nav{
 width: 1040px;
+height: 584px;
 display: grid; 
 grid-template-columns: repeat(3, 1fr); 
-justify-items: center; 
-align-items: center; 
 gap: 20px; 
+margin: 0 auto 144px;
+
 
   figure span{
     font: var(--tittle-sm);
@@ -43,7 +44,9 @@ gap: 20px;
   img{
     width: 306px;
     height: 156px;
+    border-radius: 8px;
   }
+
  figure{
     border: 1px solid var(--gray-300);
     border-radius: 12px;
@@ -53,6 +56,11 @@ gap: 20px;
     flex-direction: column; /* Alinha os elementos dentro do <figure> em coluna */
     align-items: center;
   }
+
+  figcaption, p{
+    margin-top: 12px;
+  }
+  
   
 }
 
